@@ -1,0 +1,83 @@
+.nav-item{
+    font-size: small;
+}
+.logo{
+    width: 30em;
+    padding-right: 10em;
+}
+.first{
+    position: relative;
+}
+.forfirst{
+    position: absolute;
+    bottom: 8em;
+    left: 5em;
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+    font-weight: 900;
+    background-color: brown;
+    /* padding-top: 6em;
+    padding-bottom: 6em; */
+
+}
+a{
+    color: black;
+}
+button{
+    width: 2em;
+}
+.main{
+    /* height: 3vh; */
+    width: 348px;
+    /* position: relative; */
+    position: absolute;
+    bottom: 5em;
+    left: 9em;
+}
+.belowimg{
+    /* position:relative;   */
+   /* padding-left: 15em; */
+}
+
+.firstt{
+    margin-bottom: 5em;
+}
+.side{
+width: 550px;
+padding-left: 5em;
+
+}
+.belowside{
+    text-align: justify ;
+    font-size: x-small;
+}
+.wedding{
+    font-size: small;
+    font-weight: 650;
+}
+.buttonn{
+    width:10em;
+    height: 3em;
+    background-color: rgb(131, 9, 33);
+    border: none;
+    color: white;
+}
+.sidepara{
+    color: rgb(189, 62, 39);
+    font-weight: 550;
+}
+.secondcrousel{
+    width: 40em;
+    /* s */
+    padding-top: 5em;
+}
+.img1{
+
+    width:720px;
+}
+.maindisplay{
+    display: flex;
+}
+    

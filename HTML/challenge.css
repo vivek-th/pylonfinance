@@ -1,0 +1,43 @@
+div{
+    /* width:9em; */
+    /* display:inline-block; */
+    font-size: 100px; 
+    display: inline-flex;
+    
+    
+    
+}
+.numerical1{
+    background-color: tomato;
+}
+.numerical2{
+    background-color: rgb(31, 141, 144);
+}
+.numerical4{
+    background-color: rgb(101, 19, 177);
+}
+.numerical5{
+    background-color: rgb(144, 108, 60);
+}
+.numerical3{
+    background-color: rgb(70, 144, 60);
+}
+.numerical6{
+    background-color: rgb(144, 60, 133);
+}
+.numerical7{
+    background-color: rgb(36, 71, 124);
+}
+.numerical8{
+    background-color: rgb(94, 144, 60);
+}
+.numerical9{
+    background-color: rgb(144, 60, 116);
+}
+.bigger{
+
+    border:5px solid black;
+}
+
+
+

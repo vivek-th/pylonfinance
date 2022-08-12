@@ -1,0 +1,40 @@
+.navbar-brand {
+  padding-right: 500px;
+}
+.carousel-item {
+  height: 300px;
+  width: 250;
+}
+.bluebackground {
+  background-color: rgb(20, 9, 133);
+  height:70vh;
+}
+.card-img-top {
+  height: 100px;
+  width: 50px;
+}
+.rcarousel-item active
+{
+    height: 100px;
+    width: 50px;
+}
+.navbar-expand-lg navbar-light bg-light {
+  background-color: rgb(20, 9, 133);
+}
+.bluecolor{
+    background-color: rgb(213, 252, 255);
+    height: 50vh;
+}
+.blueboxcontent{
+    font-size: 5mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 97, 158);
+    padding-top: 25px;
+}
+.blueboxcontent1{
+    font-size: 12mm;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
