@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Finance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4b5266b464.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="finanstyle.css">
+</head>
+
+<body>
+    <div class="header">
+        <a class="logo" href="#"> <img class="headerlogo"
+                src="https://public-assets.envato-static.com/assets/logos/envato_market-a5ace93f8482e885ae008eb481b9451d379599dfed24868e52b6b2d66f5cf633.svg"
+                alt=""> </a>
+    </div>
+    <div class="secheader">
+        <div class="secheaderhandle">
+            <div class="secheaderlogo">
+                <!-- Social logos-->
+                <a class="socials" href="#"> <img
+                        src="data:image/png;base64,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"
+                        alt="" class="sociallogo"></a>
+                <a class="socials" href="#"> <img
+                        src="data:image/png;base64,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"
+                        alt="" class="sociallogo"></a>
+                <a class="socials" href="#"> <img
+                        src="data:image/png;base64,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"
+                        alt="" class="sociallogo"></a>
+                <a class="socials" href="#"> <img
+                        src="https://image.similarpng.com/very-thumbnail/2020/06/Black-icon-Twitter-logo-transparent-PNG.png"
+                        alt="" class="sociallogo"></a>
+                <!--Social logos end-->
+            </div>
+            <div class="login">
+                <a class="logintxt" href="#">Login /</a>
+                <a class="logintxt" href="#">Company News /</a>
+                <a class="logintxt" href="#">FAQ</a>
+            </div>
+            <div class="secheadercontact">
+                <a class="sechdcont " href="#"> <img
+                        src="https://www.freepnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2.png"
+                        alt="" class="sechdcontimg">&nbsp;help@mail.com</a>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#" class="sechdcont"> <img class="sechdcontimg"
+                        src="https://e7.pngegg.com/pngimages/928/370/png-clipart-computer-icons-clock-axialis-iconworkshop-clock-icon-angle-number.png"
+                        alt=""> &nbsp; Mon - Sat 8:00AM - 6:00PM</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_155/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/logo-dark.png"
+                    alt="" class="pylon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Home 1</a></li>
+                            <li><a class="dropdown-item" href="#">Home 2</a></li>
+                            <li><a class="dropdown-item" href="#">Home 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Service</a></li>
+                            <li><a class="dropdown-item" href="#">Single service</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Page
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Loan calculator</a></li>
+                            <li><a class="dropdown-item" href="#">Loan Eligibility</a></li>
+                            <li><a class="dropdown-item" href="#">Apply</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            News
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Blog news</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Updates</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+                <a class="nav-link" href="#"> <img
+                        src="https://media.istockphoto.com/videos/magnifying-glass-search-icon-in-and-out-animation-loop-black-video-id954018392?s=640x640"
+                        alt="" class="search"></a>
+                <div class="custsupp">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGoeFNMf77Qpc2HMCzRKTJP395WjaQxZkzA&usqp=CAU"
+                        alt="" class="custsuppimg">
+                    Call Anytime
+                    <a href="#" class="callnum"> +91-9876543210</a>
+
+
+                </div>
+            </div>
+    </nav>
+
+    <!--Carousel-->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/main-slider-1-2.jpg"
+                    alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/main-slider-1-1.jpg"
+                    alt="Chicago" class="d-block w-100">
+            </div>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <br> <br> <br> <br>
+    <!--Offer-->
+
+    <div class="whatweoffer">
+        What We're Offering
+    </div>
+
+    <div class="loan">
+        All Loan Services
+    </div>
+
+    <div class="cards">
+        <div class="card-outer">
+
+            <div class="card" style="width: 20rem;">
+                <img src="https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/service-six.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Car Loan</h5>
+                    <p class="card-text">Car Loan provide low interest many variations of passages of lorem ipsum
+                        available the majority have some.</p>
+                    <a href="#" class="btn"><img src="https://www.nicepng.com/png/detail/168-1680853_blue-arrow.png"
+                            alt="" class="cardgo"></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+                <img src="https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/service-five.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wedding Loan</h5>
+                    <p class="card-text">For Couple provide easy and affordable with easy process lorem ipsum minim
+                        veniam aute irure lorm.</p>
+                    <a href="#" class="btn"><img src="https://www.nicepng.com/png/detail/168-1680853_blue-arrow.png"
+                            alt="" class="cardgo"></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+                <img src="https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/service-four.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Property Loan</h5>
+                    <p class="card-text">Everyone want to buy property so people want to buy home, land or commercial
+                        properly low interest.
+                    </p>
+                    <a href="#" class="btn"><img src="https://www.nicepng.com/png/detail/168-1680853_blue-arrow.png"
+                            alt="" class="cardgo"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="g2k">
+        <div class="g2ka">
+            <div class="g2kinfo">
+                <div class="g2kinfo11">
+                    Get to Know About
+                </div>
+
+                <div class="g2kinfo12">
+                    Flexible and Quick Business Loans For You
+
+                </div>
+            </div>
+            <div class="g2kinfo2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quia corporis commodi eligendi
+                saepe rem dolore, esse voluptates quas consectetur quibusdam ipsum. Obcaecati qui sapiente tempora harum
+                eveniet! Eos, quae!
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fcard">
+        <div class="fcardin">
+            <div class="fcards">
+                <img src="https://fielda.com/wp-content/uploads/2021/03/Assets-Managed.png" alt="" class="fcardsimg">
+                <div class="fcardstxt">
+                    <p>Very Low Rates on All Loans </p>
+                </div>
+            </div>
+            <div class="fcards">
+                <img src="https://www.redtone.com/wp-content/uploads/2021/04/certificate_blue-100x100.png" alt=""
+                    class="fcardsimg">
+                <div class="fcardstxt">
+                    <p>99.9% Success Rate Guarantee</p>
+                </div>
+            </div>
+            <div class="fcards">
+                <img src="https://949515.smushcdn.com/2573227/wp-content/uploads/2019/01/Wing2World.png?lossy=0&strip=1&webp=1"
+                    alt="" class="fcardsimg">
+                <div class="fcardstxt">
+                    <p>Flexible with Your Repayments </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trust">
+        <div class="trust1">
+            <div class="trust1ins">
+                <div class="trust11">
+                    <br>Trusted Company
+                </div>
+                <div class="trust12">
+                    Most of the People Trust on<br> Us For Fast Services
+                </div>
+                <div class="trust13">
+                    <div class="trust131">
+                        <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_200,h_173/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/trust-1-1.png"
+                            alt="" class="trust1img">
+                    </div>
+                    <div class="trust132">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maxime distinctio qui
+                            explicabo a animi saepe dolores aperiam eaque itaque? Voluptatibus eum est tempora sit
+                            corrupti
+                            consequatur quasi a recusandae. </p>
+                    </div>
+                </div>
+                <div class="trust14">
+                    <div class="trust141">
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Credit Card Per Day <br>
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Personal Loan <br>
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Car / Auto Loan <br>
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Home Loan
+                    </div>
+                    <div class="trust142">
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Gold Loan Per Day <br>
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Mortgage Loan <br>
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Education / Student Loan <br>
+                        <img src="https://images.squarespace-cdn.com/content/v1/61163d195f852c77666fb516/1630206096162-DI7UIMGIN0UE6XEN3A2N/B%26R+PROPERTY+MAINTENANCE+GROUP+%2812%29.png?format=500w"
+                            alt="" class="trusttick">&nbsp; Wedding Loan
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trust2">
+            <div class="trust2ins">
+                <div class="trust2div">
+                    <div class="trust2img">1</div>
+                    <div class="trust2txt">
+                        <p>Easy loan solutions for small agency, business and companies</p>
+                    </div>
+                </div>
+                <div class="trust2div">
+                    <div class="trust2img">2</div>
+                    <div class="trust2txt">
+                        <p>Submit Required Documents and Details for loan approval </p>
+                    </div>
+                </div>
+                <div class="trust2div">
+                    <div class="trust2img">3</div>
+                    <div class="trust2txt">Take our loans and pay later when studies completed</div>
+                </div>
+                <div class="trust2div">
+                    <div class="trust2img">4</div>
+                    <div class="trust2txt">Get small loans for more needs in 2 hours with less documents</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <br> <br>
+        <div class="testimonials1">Customer testimonials</div>
+        <div class="testimonials2">Customer testimonials</div>
+        <div class="testcards">
+            <div class="row text-center d-flex align-items-stretch">
+                <div class="tcard col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-up" style="background-color: #10253C;"></div>
+                        <div class="tavatar mx-auto bg-white">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="tcard-body">
+                            <h4 class="tcard-head mb-4">Vernon Ray</h4>
+                            <hr />
+                            <p class="tcard-mat dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i> Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Sunt, corporis eligendi a quis, reiciendis voluptates quia ea harum
+                                totam quod sint deserunt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcard col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-up" style="background-color: #10253C;"></div>
+                        <div class="tavatar mx-auto bg-white">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="tcard-body">
+                            <h4 class="tcard-head mb-4">Clyde Williamson</h4>
+                            <hr />
+                            <p class="tcard-mat dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Sunt, corporis eligendi a quis, reiciendis voluptates quia ea harum
+                                totam quod sint deserunt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcard col-md-4 mb-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-up" style="background-color: #10253C;"></div>
+                        <div class="tavatar mx-auto bg-white">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="tcard-body">
+                            <h4 class="tcard-head  mb-4">Leena Woods</h4>
+                            <hr />
+                            <p class="tcard-mat dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Sunt, corporis eligendi a quis, reiciendis voluptates quia ea harum
+                                totam quod sint deserunt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="choose">
+        <div class="choose1">
+            <div class="choose11">
+                <img src="http://mavigroup.in/img/bg-img/finance-property-management.jpg" alt="" class="chooselogo">26
+                Years of working experience &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2021/07/why-choose-3-new.jpg"
+                    alt="" class="choosemain">
+            </div>
+        </div>
+        <div class="choose2">
+            <div class="choose2space"> </div>
+            <div class="choose2main">
+                <div class="choose21">
+                    <span> Our Benefits </span>
+                </div>
+                <div class="choose22">
+                    Why Choose Us?
+                </div>
+                <div class="choose23">
+                    <span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea in ex nisi eligendi culpa iure
+                        vitae laborum quidem libero repellat corrupti velit maiores rem, soluta praesentium veritatis
+                        odio eos
+                        assumenda?
+                    </span>
+                </div>
+                <div class="choose24">
+                    <div class="choose24ins">
+                        <i class="fa-solid fa-caret-right"></i> &nbsp; Professional Team
+                        <span>
+                            <p> <br>Lorem ipsum dolor sit is amet, consectetur notted. </p>
+                        </span>
+                    </div>
+                    <div class="choose24ins">
+                        <i class="fa-solid fa-caret-right"></i> &nbsp; Quick Payments
+                        <span>
+                            <p> <br>Lorem ipsum dolor sit is amet, consectetur notted. </p>
+                        </span>
+                    </div>
+                </div>
+                <br>
+                <div class="choose25">
+                    Loan Process <div class="choosebarspace">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;90%</div> <br>
+                    <progress id="choosebar" value="90" max="100" class="choosebar"> </progress>
+                    Consultancy <div class="choosebarspace">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;80%</div> <br>
+                    <progress id="choosebar" value="80" max="100" class="choosebar"> </progress>
+                    Payment Benefits <div class="choosebarspace">85%</div> <br>
+                    <progress id="choosebar" value="85" max="100" class="choosebar"> </progress>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="stats">
+        <div class="statsin">
+            <div class="statsins"><span>99% </span> <br>
+                We Approve Loans
+            </div>
+            <div class="statsgap"> </div>
+            <div class="statsins"><span>$90K </span> <br>
+                Daily Payments
+            </div>
+            <div class="statsgap"> </div>
+            <div class="statsins"><span>8900 </span> <br>
+                Happy Customers
+            </div>
+            <div class="statsgap"> </div>
+            <div class="statsins"><span>346 </span> <br>
+                Staff Members
+            </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="newsgap"></div>
+        <div class="dfb">
+            Directly from blog
+        </div>
+        <div class="newsna">
+            News & Articles
+        </div>
+        <div class="newscards">
+            <div class="newdiv" style="width:80% ;margin-left: 10% ;display: flex; justify-content: space-around; ">
+                <div class="card" style="width: 22rem; height: 27rem; " id="nacard1">
+                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog6.jpg"
+                        class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <div id="nacard1date">
+                            31 Dec , 2022
+                        </div>
+                        <div class="nacardlink ">
+                            <div style="width:30%; display: inline;">
+                                <i class="fa-regular fa-user" style="color: #008FD5 ;"></i>
+                                <a href="#" style="text-decoration: none; " class="nacardhover">&nbsp; admin</a>
+                                &nbsp; <i class="fa-solid fa-grip-lines-vertical"></i> &nbsp; &nbsp;
+                            </div>
+                            <div style="display:inline;">
+                                <i class="fa-regular fa-folder" style="color: #008FD5"></i>
+                                <a href="#" style="text-decoration: none; " class="nacardhover">&nbsp; Credit Card</a>
+                            </div>
+                        </div>
+                        <p class="card-text"
+                            style="margin-top:20px; font-family:Ubuntu; font-weight: bolder; font-size: 24px; ">
+                            <a href="#" style="text-decoration: none; " class="nacardhoverbody">For Car auto
+                                you will get 90% loan amount</a>
+                        </p>
+                        <hr>
+                        <div style="color:gray; display: flex;">
+                            <div style="width:50%; display:inline">
+                                <a href="#" style="text-decoration: none;" class="nacardhover"> <i
+                                        class="fa-solid fa-arrow-right-long"></i> Read More</a>
+                            </div>
+                            <div style="width:50%; display:inline ; text-align: right;">
+                                <i class="fa-regular fa-comments" style="color:#0E94D7 ;"></i>
+                                <a href="#" style="text-decoration: none;" class="nacardhover">0 comments </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem; height: 27rem; " id="nacard1">
+                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog5.jpg"
+                        class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <div id="nacard1date">
+                            31 Dec , 2022
+                        </div>
+                        <div class="nacardlink ">
+                            <div style="width:30%; display: inline;">
+                                <i class="fa-regular fa-user" style="color: #008FD5 ;"></i>
+                                <a href="#" style="text-decoration: none; " class="nacardhover">&nbsp; admin</a>
+                                &nbsp; <i class="fa-solid fa-grip-lines-vertical"></i> &nbsp; &nbsp;
+                            </div>
+                            <div style="display:inline;">
+                                <i class="fa-regular fa-folder" style="color: #008FD5"></i>
+                                <a href="#" style="text-decoration: none; " class="nacardhover">&nbsp; Car Loan</a>
+                            </div>
+                        </div>
+                        <p class="card-text"
+                            style="margin-top:20px; font-family:Ubuntu; font-weight: bolder; font-size: 24px; ">
+                            <a href="#" style="text-decoration: none; " class="nacardhoverbody">How to get education
+                                loan for overseas</a>
+                        </p>
+                        <hr>
+                        <div style="color:gray; display: flex;">
+                            <div style="width:50%; display:inline">
+                                <a href="#" style="text-decoration: none;" class="nacardhover"> <i
+                                        class="fa-solid fa-arrow-right-long"></i> Read More</a>
+                            </div>
+                            <div style="width:50%; display:inline ; text-align: right;">
+                                <i class="fa-regular fa-comments" style="color:#0E94D7 ;"></i>
+                                <a href="#" style="text-decoration: none;" class="nacardhover">0 comments </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem; height: 27rem; " id="nacard1">
+                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog4.jpg"
+                        class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <div id="nacard1date">
+                            31 Dec , 2022
+                        </div>
+                        <div class="nacardlink ">
+                            <div style="width:30%; display: inline;">
+                                <i class="fa-regular fa-user" style="color: #008FD5 ;"></i>
+                                <a href="#" style="text-decoration: none; " class="nacardhover">&nbsp; admin</a>
+                                &nbsp; <i class="fa-solid fa-grip-lines-vertical"></i> &nbsp; &nbsp;
+                            </div>
+                            <div style="display:inline;">
+                                <i class="fa-regular fa-folder" style="color: #008FD5"></i>
+                                <a href="#" style="text-decoration: none; " class="nacardhover">&nbsp; Investment</a>
+                            </div>
+                        </div>
+                        <p class="card-text"
+                            style="margin-top:20px; font-family:Ubuntu; font-weight: bolder; font-size: 24px; ">
+                            <a href="#" style="text-decoration: none; " class="nacardhoverbody">Easy way to calculate
+                                interest on a loan</a>
+                        </p>
+                        <hr>
+                        <div style="color:gray; display: flex;">
+                            <div style="width:50%; display:inline">
+                                <a href="#" style="text-decoration: none;" class="nacardhover"> <i
+                                        class="fa-solid fa-arrow-right-long"></i> Read More</a>
+                            </div>
+                            <div style="width:50%; display:inline ; text-align: right;">
+                                <i class="fa-regular fa-comments" style="color:#0E94D7 ;"></i>
+                                <a href="#" style="text-decoration: none;" class="nacardhover">0 comments </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="applyfl">
+        <div class="simple">
+            <p> Simple / Transparent / Secure</p>
+        </div>
+        <div class="loanquick">
+            <p>Get a Business Loan Quickly </p>
+
+            <div class="buttondiv">
+                <button class="applybtn">
+                    Apply for Loan
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- this is new edited block for mobile view of 800px-->
+
+
+    <div class="footerafter">
+        <div class="footerinsafter">
+            <div class="d-flex flex-column bd-highlight mb-3 lastfirst">
+
+                <div class="p-2 bd-highlight">
+                    <div class="welpyl">
+                        <div>
+                            <img class="logo2"
+                                src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_155/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/logo-light.png"
+                                alt="" style="height:40px;">
+                        </div>
+                        <div class="welcome"
+                            style="margin-top: 20px; padding-right:40px ; font-family:Titillium Web ; color: lightgray ; font-size: 17px; font-weight: bold;">
+                            Welcome to pylon loan company we are provide loan as very reasonably interest and you
+                            can
+                            provide
+                            document etur labore.
+                        </div>
+                        <hr style="color:lightgray;">
+                        <div style="color:lightgray ;">
+                            <img src="/images/cc.png" alt="" height="45px" style="display: inline-block;">
+                            <div class="welpylcall">
+                                <p>CALL ANYTIME - 9988776655</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="p-2 bd-highlight">
+                    <div class="explore">
+                        <div style="font-family: Ubuntu; font-weight: bold; font-size: 20px; color: white;">
+                            Explore
+                        </div>
+                        <div style="margin-top:20px ; padding-left: 10px; padding-top: 5px; ">
+                            <a href="" style="color: lightgray; text-decoration:none ;">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                                About
+                            </a> <br>
+                            <a href="" style="color: lightgray; text-decoration:none;">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                                Our Service
+                            </a> <br>
+                            <a href="" style="color: lightgray; text-decoration:none;">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                                Latest News
+                            </a> <br>
+                            <a href="" style="color: lightgray; text-decoration:none;">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                                Contact Us
+                            </a> <br>
+                            <a href="" style="color: lightgray; text-decoration:none;">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                                Testimonial
+                            </a> <br>
+                            <a href="" style="color: lightgray; text-decoration:none;">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                                Loan Calculator
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="p-2 bd-highlight">
+                    <div class="ln">
+                        <div
+                            style="font-family: Ubuntu; font-weight: bold; font-size: 20px; color: white; margin-bottom: 20px;">
+                            Latest News
+                        </div>
+                        <div class="lnarticles">
+                            <div>
+                                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_150,h_150/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog6-150x150.jpg"
+                                    alt="" style="height:75px ; border-radius: 3px;">
+                            </div>
+                            <div>
+                                <div>
+                                    <a href="#" style="text-decoration: none ; padding-left: 20px; font-size: 12px;">
+                                        December
+                                        31 , 2022 </a>
+                                </div>
+                                <div class="lnarticle" style="padding-left: 20px; padding-right: 100px; ">
+                                    <a href="#" class="lnarticle">
+                                        For Car auto you will get 90% loan amount
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="lnarticles">
+                            <div>
+                                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_150,h_150/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog5-150x150.jpg"
+                                    alt="" style="height:75px ; border-radius: 3px;">
+                            </div>
+                            <div>
+                                <div>
+                                    <a href="#" style="text-decoration: none ; padding-left: 20px; font-size: 12px;">
+                                        December
+                                        31 , 2022 </a>
+                                </div>
+                                <div style="padding-left: 20px; padding-right: 100px; ">
+                                    <a href="#" class="lnarticle">
+                                        How to get education loan for overseas
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="p-2 bd-highlight">
+                    <div class="conc">
+                        <div
+                            style="color:white ; font-family: Ubuntu; font-weight: bold; font-size: 20px; padding-bottom: 20px;">
+                            Contact
+                        </div>
+                        <div>
+                            <a href="#" class="concins"> <i class="fa-solid fa-envelope" style="color: #008FD5;"></i>
+                                &nbsp;
+                                needhelp@company.com </a>
+                        </div>
+                        <hr color="lightgrey">
+                        <div>
+                            <a href="#" class="concins"> <i class="fa-solid fa-clock" style="color: #008FD5;"></i>
+                                &nbsp;
+                                Mon - Sat 8:00AM - 6:00PM </a>
+                        </div>
+                        <hr color="lightgrey">
+                        <div>
+                            <a href="#" class="concins"> <i class="fa-solid fa-location-pin"
+                                    style="color: #008FD5;"></i>
+                                &nbsp; 80 Broklyn Golden Street,New York. &nbsp; &nbsp; &nbsp; </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- this is end of new block  for 800px-->
+
+    <!-- this is new for 1100px-->
+
+    <div class="footerafterafter">
+        <div class="footerinsafter">
+            <div class="d-flex flex-column bd-highlight mb-3 lastfirst">
+
+                <div class="p-2 bd-highlight">
+                    <div>
+                        <div class="footerafterwel">
+                            <div class="welpyl">
+                                <div>
+                                    <img class="logo2"
+                                        src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_155/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/logo-light.png"
+                                        alt="" style="height:40px;">
+                                </div>
+                                <div class="welcome"
+                                    style="margin-top: 20px; padding-right:40px ; font-family:Titillium Web ; color: lightgray ; font-size: 17px; font-weight: bold;">
+                                    Welcome to pylon loan company we are provide loan as very reasonably interest and
+                                    you
+                                    can
+                                    provide
+                                    document etur labore.
+                                </div>
+                                <hr style="color:lightgray;">
+                                <div style="color:lightgray ;">
+                                    <img src="/images/cc.png" alt="" height="45px" style="display: inline-block;">
+                                    <div class="welpylcall">
+                                        <p>CALL ANYTIME - 9988776655</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="explore2">
+                        <div class="explore">
+                            <div style="font-family: Ubuntu; font-weight: bold; font-size: 20px; color: white;">
+                                Explore
+                            </div>
+                            <div style="margin-top:20px ; padding-left: 10px; padding-top: 5px; ">
+                                <a href="" style="color: lightgray; text-decoration:none ;">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    About
+                                </a> <br>
+                                <a href="" style="color: lightgray; text-decoration:none;">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    Our Service
+                                </a> <br>
+                                <a href="" style="color: lightgray; text-decoration:none;">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    Latest News
+                                </a> <br>
+                                <a href="" style="color: lightgray; text-decoration:none;">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    Contact Us
+                                </a> <br>
+                                <a href="" style="color: lightgray; text-decoration:none;">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    Testimonial
+                                </a> <br>
+                                <a href="" style="color: lightgray; text-decoration:none;">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    Loan Calculator
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="p-2 bd-highlight">
+                </div>
+                <div class="ln">
+                    <div
+                        style="font-family: Ubuntu; font-weight: bold; font-size: 20px; color: white; margin-bottom: 20px;">
+                        Latest News
+                    </div>
+                    <div class="lnarticles">
+                        <div>
+                            <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_150,h_150/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog6-150x150.jpg"
+                                alt="" style="height:75px ; border-radius: 3px;">
+                        </div>
+                        <div>
+                            <div>
+                                <a href="#" style="text-decoration: none ; padding-left: 20px; font-size: 12px;">
+                                    December
+                                    31 , 2022 </a>
+                            </div>
+                            <div class="lnarticle" style="padding-left: 20px; padding-right: 100px; ">
+                                <a href="#" class="lnarticle">
+                                    For Car auto you will get 90% loan amount
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="lnarticles">
+                        <div>
+                            <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_150,h_150/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog5-150x150.jpg"
+                                alt="" style="height:75px ; border-radius: 3px;">
+                        </div>
+                        <div>
+                            <div>
+                                <a href="#" style="text-decoration: none ; padding-left: 20px; font-size: 12px;">
+                                    December
+                                    31 , 2022 </a>
+                            </div>
+                            <div style="padding-left: 20px; padding-right: 100px; ">
+                                <a href="#" class="lnarticle">
+                                    How to get education loan for overseas
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conc">
+                    <div
+                        style="color:white ; font-family: Ubuntu; font-weight: bold; font-size: 20px; padding-bottom: 20px;">
+                        Contact
+                    </div>
+                    <div>
+                        <a href="#" class="concins"> <i class="fa-solid fa-envelope" style="color: #008FD5;"></i>
+                            &nbsp;
+                            needhelp@company.com </a>
+                    </div>
+                    <hr color="lightgrey">
+                    <div>
+                        <a href="#" class="concins"> <i class="fa-solid fa-clock" style="color: #008FD5;"></i>
+                            &nbsp;
+                            Mon - Sat 8:00AM - 6:00PM </a>
+                    </div>
+                    <hr color="lightgrey">
+                    <div>
+                        <a href="#" class="concins"> <i class="fa-solid fa-location-pin" style="color: #008FD5;"></i>
+                            &nbsp; 80 Broklyn Golden Street,New York. &nbsp; &nbsp; &nbsp; </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- this is end of new for 1100px-->
+
+
+
+
+
+    <div class="footer">
+        <div class="footerins">
+            <div class="welpyl">
+                <div>
+                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_155/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/logo-light.png"
+                        alt="" style="height:40px;">
+                </div>
+                <div
+                    style="margin-top: 20px; padding-right:40px ; font-family:Titillium Web ; color: lightgray ; font-size: 17px; font-weight: bold;">
+                    Welcome to pylon loan company we are provide loan as very reasonably interest and you can
+                    provide
+                    document etur labore.
+                </div>
+                <hr style="color:lightgray;">
+                <div style="color:lightgray ;">
+                    <img src="/images/cc.png" alt="" height="45px" style="display: inline-block;">
+                    <div class="welpylcall">
+                        <p>CALL ANYTIME - 9988776655</p>
+                    </div>
+                </div>
+            </div>
+            <div class="explore">
+                <div style="font-family: Ubuntu; font-weight: bold; font-size: 20px; color: white;">
+                    Explore
+                </div>
+                <div style="margin-top:20px ; padding-left: 10px; padding-top: 5px; ">
+                    <a href="" style="color: lightgray; text-decoration:none ;">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        About
+                    </a> <br>
+                    <a href="" style="color: lightgray; text-decoration:none;">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        Our Service
+                    </a> <br>
+                    <a href="" style="color: lightgray; text-decoration:none;">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        Latest News
+                    </a> <br>
+                    <a href="" style="color: lightgray; text-decoration:none;">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        Contact Us
+                    </a> <br>
+                    <a href="" style="color: lightgray; text-decoration:none;">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        Testimonial
+                    </a> <br>
+                    <a href="" style="color: lightgray; text-decoration:none;">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                        Loan Calculator
+                    </a>
+                </div>
+            </div>
+            <div class="ln">
+                <div
+                    style="font-family: Ubuntu; font-weight: bold; font-size: 20px; color: white; margin-bottom: 20px;">
+                    Latest News
+                </div>
+                <div class="lnarticles">
+                    <div>
+                        <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_150,h_150/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog6-150x150.jpg"
+                            alt="" style="height:75px ; border-radius: 3px;">
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#" style="text-decoration: none ; padding-left: 20px; font-size: 12px;">
+                                December
+                                31 , 2022 </a>
+                        </div>
+                        <div style="padding-left: 20px; padding-right: 100px; ">
+                            <a href="#" class="lnarticle">
+                                For Car auto you will get 90% loan amount
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="lnarticles">
+                    <div>
+                        <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_150,h_150/https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/blog5-150x150.jpg"
+                            alt="" style="height:75px ; border-radius: 3px;">
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#" style="text-decoration: none ; padding-left: 20px; font-size: 12px;">
+                                December
+                                31 , 2022 </a>
+                        </div>
+                        <div style="padding-left: 20px; padding-right: 100px; ">
+                            <a href="#" class="lnarticle">
+                                How to get education loan for overseas
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="conc">
+                <div
+                    style="color:white ; font-family: Ubuntu; font-weight: bold; font-size: 20px; padding-bottom: 20px;">
+                    Contact
+                </div>
+                <div>
+                    <a href="#" class="concins"> <i class="fa-solid fa-envelope" style="color: #008FD5;"></i>
+                        &nbsp; needhelp@company.com </a>
+                </div>
+                <hr color="lightgrey">
+                <div>
+                    <a href="#" class="concins"> <i class="fa-solid fa-clock" style="color: #008FD5;"></i>
+                        &nbsp; Mon - Sat 8:00AM - 6:00PM </a>
+                </div>
+                <hr color="lightgrey">
+                <div>
+                    <a href="#" class="concins"> <i class="fa-solid fa-location-pin" style="color: #008FD5;"></i>
+                        &nbsp; 80 Broklyn Golden Street,New York. &nbsp; &nbsp;
+                        &nbsp; </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

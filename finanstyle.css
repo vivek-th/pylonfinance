@@ -1,0 +1,1033 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+.header {
+  background-color: #262626;
+  height: 3.5em;
+}
+
+.headerlogo {
+  height: 18px;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+
+.secheader {
+  background-color: #eff2f6;
+  height: 2.5em;
+}
+
+.secheaderlogo {
+  background-color: white;
+  margin-left: 10em;
+  width: 150px;
+  height: 100%;
+  display: inline-block;
+}
+
+.secheaderhandle {
+  display: inline;
+  height: 2.5em;
+}
+
+.sociallogo {
+  padding-left: 5px;
+  padding-top: 1px;
+  margin-top: 7px;
+  height: 1.6em;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.login {
+  display: inline;
+  padding-left: 20px;
+  width: 150px;
+  height: 100%;
+}
+
+.logintxt {
+  margin: 8px;
+  margin-top: 8px;
+  color: #6f7378;
+  text-decoration: none;
+}
+
+.secheadercontact {
+  display: inline;
+  padding-left: 300px;
+}
+
+.sechdcont {
+  height: 22px;
+  text-decoration: none;
+  padding-top: 10px;
+  color: gray;
+}
+
+.sechdcontimg {
+  height: 22px;
+}
+
+.navbar {
+  height: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  padding-left: 150px;
+}
+
+.pylon {
+  height: 40px;
+}
+
+.navbar-nav {
+  padding-left: 160px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.search {
+  height: 20px;
+}
+
+.custsupp {
+  margin-left: 80px;
+  width: 300px;
+}
+
+.custsuppimg {
+  height: 45px;
+  display: inline-block;
+}
+
+.callnum {
+  text-decoration: none;
+  color: gray;
+}
+
+.whatweoffer {
+  text-align: center;
+  color: #6f7378;
+  font-size: 15px;
+}
+
+.loan {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.cards {
+  height: 30em;
+  background-color: #eff2f6;
+}
+
+.card-outer {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 50px;
+  height: 400px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.cardgo {
+  height: 40px;
+}
+
+.g2k {
+  background-color: #10253c;
+  height: 250px;
+}
+
+.g2ka {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.g2kinfo {
+  margin: auto;
+  height: 80%;
+  width: 50%;
+  color: white;
+}
+
+.g2kinfo2 {
+  margin: auto;
+  height: 80%;
+  width: 50%;
+  padding-top: 20px;
+  color: gray;
+}
+
+.g2kinfo11 {
+  height: 20%;
+  margin: auto;
+}
+
+.g2kinfo12 {
+  height: 60%;
+  font-size: xx-large;
+  margin: auto;
+  font-weight: bolder;
+}
+
+.fcard {
+  height: 250px;
+  background-color: #eff2f6;
+}
+
+.fcardin {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fcards {
+  height: 125px;
+  width: 20rem;
+  margin: auto;
+  background-color: white;
+  font-size: larger;
+  display: flex;
+}
+
+.fcardsimg {
+  height: 70px;
+  padding-left: 30px;
+  margin-top: 27px;
+  width: 30%;
+}
+
+.fcardstxt {
+  margin-top: 32px;
+  margin-left: 10px;
+}
+
+.trust {
+  height: 600px;
+  background-color: #10253c;
+  display: flex;
+}
+
+.trust1 {
+  width: 50%;
+}
+
+.trust2 {
+  width: 50%;
+}
+
+.trust1ins {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.trust11 {
+  height: 10%;
+  color: gray;
+  font-size: 20px;
+  padding-left: 13%;
+}
+
+.trust12 {
+  height: 20%;
+  margin-top: 2%;
+  padding-left: 13%;
+  color: white;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.trust13 {
+  height: 35%;
+  margin-top: 2%;
+  padding-left: 13%;
+  display: flex;
+}
+
+.trust131 {
+  width: 35%;
+}
+
+.trust1img {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.trust132 {
+  width: 65%;
+  color: gray;
+  font-size: 17px;
+  padding-left: 3%;
+}
+
+.trust14 {
+  height: 28%;
+  margin-top: 2%;
+  padding-left: 13%;
+  display: flex;
+  color: lightgray;
+  font-size: 20px;
+}
+
+.trust141 {
+  width: 50%;
+}
+
+.trust142 {
+  width: 50%;
+}
+
+.trusttick {
+  height: 20px;
+}
+
+.trust2ins {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 7%;
+  background-color: #004aa1;
+  border-radius: 5px;
+  padding-top: 2%;
+}
+
+.trust2div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: white;
+  border-radius: 5px;
+  width: 80%;
+  height: 21%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trust2img {
+  width: 12%;
+  background-color: #008fd5;
+  height: 60%;
+  margin-top: 4%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.trust2txt {
+  width: 70%;
+  height: 60%;
+  margin-top: 4%;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.trust2div:hover {
+  background-color: #008fd5;
+  color: white;
+}
+
+.trust2div:hover .trust2img {
+  background-color: white;
+  color: black;
+}
+
+.testimonials {
+  background-image: url("/images/map.jpg");
+  height: 600px;
+  background-color: aqua;
+}
+
+.testimonials1 {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+}
+
+.testimonials2 {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.testimonial-card .tavatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.testcards {
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-evenly;
+}
+
+.tcard {
+  padding-right: 5%;
+}
+
+.tcard-head {
+  color: #008fd5;
+}
+
+.tcard-mat {
+  margin: auto;
+  padding: 3px;
+}
+
+.choose {
+  height: 80vh;
+  display: flex;
+}
+
+.choose1 {
+  width: 45%;
+  background-color: #09428f;
+}
+
+.choose2 {
+  width: 55%;
+}
+
+.choose11 {
+  height: 15%;
+  text-align: right;
+  color: white;
+  font-size: 27px;
+}
+
+.chooselogo {
+  height: 100px;
+}
+
+.choosemain {
+  height: 534px;
+}
+
+.choose2space {
+  height: 15%;
+  background-color: #fdfdfd;
+}
+.choose2main {
+  padding-left: 15%;
+  padding-right: 30%;
+}
+
+.choose21 {
+  height: 80px;
+  display: flex;
+  color: gray;
+  font-size: 15px;
+}
+.choose21 span {
+  align-self: flex-end;
+}
+
+.choose22 {
+  height: 10%;
+  font-size: 38px;
+  font-family: Ubuntu;
+  font-weight: bolder;
+}
+
+.choose23 {
+  height: 110px;
+  display: flex;
+  color: gray;
+}
+.choose23 span {
+  align-self: flex-end;
+}
+
+.choose24 {
+  height: 133px;
+  display: flex;
+  padding-top: 8%;
+}
+
+.choose24ins {
+  width: 50%;
+  font-size: 20px;
+  color: #10253c;
+  padding-right: 20px;
+  font-weight: bold;
+}
+.choose24ins span {
+  font-size: 16px;
+  color: gray;
+  font-weight: normal;
+}
+
+.choose25 {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #10253c;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.choosebar {
+  width: 100%;
+  height: 10px;
+}
+.choosebarspace {
+  display: inline;
+  width: 100%;
+  padding-left: 300px;
+}
+
+.stats {
+  margin-top: 70px;
+  background-color: #0e94d7;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.statsin {
+  height: 120px;
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.statsins {
+  width: 24%;
+  height: 100%;
+  /* background-color: wheat; */
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+}
+.statsins span {
+  font-size: 40px;
+  font-family: "Titillium Web";
+}
+
+.statsgap {
+  width: 0.1%;
+  height: 60%;
+  background-color: white;
+}
+
+.news {
+  min-height: 90vh;
+}
+
+.newsgap {
+  min-height: 10vh;
+}
+
+.dfb {
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+}
+
+.newsna {
+  font-family: "Titillium Web";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newscards {
+  margin-top: 2vh;
+}
+
+#nacard1 {
+  position: relative;
+  box-shadow: -1px 4px 10px -5px rgba(0, 0, 0, 0.57);
+  transition: transform 0.5s;
+}
+
+#nacard1date {
+  height: 35px;
+  width: 120px;
+  background-color: #004aa1;
+  border-radius: 4px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "Helvetica";
+}
+
+.nacardlink {
+  height: 20px;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 13px;
+  display: flex;
+}
+
+#nacard1:hover {
+  transform: scale(1.1);
+}
+
+.nacardhover {
+  color: gray;
+}
+
+.nacardhover:hover {
+  color: #0e94d7;
+}
+
+.nacardhoverbody {
+  color: black;
+}
+
+.nacardhoverbody:hover {
+  color: #0e94d7;
+}
+
+.applybtn {
+  border-radius: 3px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3498db;
+  padding: 12px 35px 12px 35px;
+  text-decoration: none;
+  border-width: 0px;
+  /* position: absolute; */
+  /* left: 1000px;
+  top: 40px; */
+  margin-left: 90em;
+;
+}
+
+.applybtn:hover {
+  background: white;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.footer  {
+  height: 450px;
+  width: 100%;
+  background-image: url("https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/footer-bg-1-1.jpg");
+  padding-top: 100px;
+}
+
+
+.footerins {
+  /* background-color: white; */
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  display: flex;
+}
+
+.welpyl {
+  width: 25%;
+  height: 100%;
+}
+
+.explore {
+  width: 17%;
+  height: 100%;
+}
+
+.ln {
+  width: 30%;
+  height: 100%;
+}
+
+.conc {
+  width: 28%;
+  height: 100%;
+  background-color: #09192c;
+}
+
+.welpylcall {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.lnarticles {
+  display: flex;
+}
+
+.lnarticle {
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-weight: bolder;
+  color: lightgrey;
+  font-size: 17px;
+}
+
+.lnarticle:hover {
+  color: #008fd5;
+}
+
+.conc {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.concins {
+  color: lightgrey;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.concins:hover {
+  color: #008fd5;
+}
+
+.applyfl {
+  height: 10em;
+  background-color: #004aa1;
+  margin-top: 50px;
+  
+}
+
+
+.simple {
+  height: 50px;
+  color: white;
+  font-size: 23px;
+  margin-left: 180px;
+  padding-top: 50px;
+}
+
+.loanquick {
+  height: 50px;
+  color: white;
+  font-size: 2em;
+  margin-left: 180px;
+  padding-top: 40px;
+  font-family: Titillium Web;
+  font-weight: bolder;
+  /* position: relative; */
+  display: flex;
+}
+
+.applybtn {
+  align-items: center;
+  margin-left: 35em;
+  margin-bottom: 2em;
+  margin-right: 1px;
+}
+.footerafter{
+    display: none;
+}
+
+.footerafterafter{
+  display:none;
+}
+
+
+@media (max-width:1100px){
+  .applyfl {
+    height: 15em;
+    width: 100%;
+    align-items:center;
+  
+    
+  }
+
+  .simple {
+    padding-left: 2em;
+    margin: 0;
+    font-size: 1.2em;
+    margin: 0%;
+    text-align: center;
+
+  }
+
+  .loanquick {
+    display: block;
+    /* padding-left: 0.5em ; */
+    margin: 0; 
+    text-align: center;
+  }
+
+  .applybtn{
+      
+      margin: 0;
+      margin-top: 8em;
+      align-items: center;
+      margin-top:0.5em;
+      /* display:flex; */
+     
+      
+      
+    }
+
+    .footer{
+        margin:0;
+        height:90em;
+    }
+
+    .logo2{
+        display: block;
+        margin: 0;
+        padding:0;
+    }
+
+   
+.footer{
+    display: none; 
+
+ }
+
+ .footerafterwel{
+   display: flex;
+ }
+
+ .explore2{
+
+display: flex;
+ }
+
+
+ .footerafterafter{
+    display: inline;
+ }
+ .footerinsafter{
+    height: 90em;
+    width: 100%;
+    background-image: url("https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/footer-bg-1-1.jpg");
+  
+    padding-top: 100px;
+  
+}
+.welpyl{
+    margin:0;
+    width: 100%;
+    padding:0%;
+    padding-left: 1em;
+    padding-bottom: 2rem;
+
+}
+.welcome{
+    margin:0%;
+    padding:0%;
+width: 100%;
+}
+.lastfirst{
+    width: 100%;
+}
+.explore{
+    width: 100%;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+.ln{
+    width:100%;
+    padding-left:1em;
+    padding-bottom: 2em;
+}
+.conc{
+    width: 92%;
+    margin-left:1em;
+    
+}
+
+.buttondiv{
+  align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 800px) {
+  .applyfl {
+    height: 15em;
+    width: 100%;
+    align-items:center;
+  
+    
+  }
+
+  .footerafterafter{
+    display: none;
+  }
+
+  .simple {
+    padding-left: 2em;
+    margin: 0;
+    font-size: 1.2em;
+    margin: 0%;
+    text-align: center;
+
+  }
+
+  .loanquick {
+    display: block;
+    /* padding-left: 0.5em ; */
+    margin: 0; 
+    text-align: center;
+  }
+
+  .applybtn{
+      
+      margin: 0;
+      margin-top: 8em;
+      align-items: center;
+      margin-top:0.5em;
+      /* display:flex; */
+     
+      
+      
+    }
+
+    .footer{
+        margin:0;
+        height:90em;
+    }
+
+    .logo2{
+        display: block;
+        margin: 0;
+        padding:0;
+    }
+
+    .explore{
+        display:block;
+    }
+    .welpyl{
+        display: block;
+    }
+.footer{
+    display: none; 
+
+ }
+
+ .footerafterafter{
+    display: inline;
+ }
+ .footerinsafter{
+    height: 90em;
+    width: 100%;
+    background-image: url("https://webdevcode.com/wp/pylon/live/wp-content/uploads/2020/12/footer-bg-1-1.jpg");
+  
+    padding-top: 100px;
+  
+}
+.welpyl{
+    margin:0;
+    width: 100%;
+    padding:0%;
+    padding-left: 1em;
+    padding-bottom: 2rem;
+
+}
+.welcome{
+    margin:0%;
+    padding:0%;
+width: 100%;
+}
+.lastfirst{
+    width: 100%;
+}
+.explore{
+    width: 100%;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+.ln{
+    width:100%;
+    padding-left:1em;
+    padding-bottom: 2em;
+}
+.conc{
+    width: 92%;
+    margin-left:1em;
+    
+}
+
+.buttondiv{
+  align-items: center;
+
+
+}
+
+.newdiv{
+flex-direction: column;
+align-items: center;
+}
+
+.card{
+  width: 100%;
+  height: 10%;
+
+}
